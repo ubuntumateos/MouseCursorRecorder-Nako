@@ -1,23 +1,64 @@
-MouseCursorRecorder-Nako
-日本語プログラミング言語「なでしこ v1」で作成した、マウスカーソルの座標を記録するためのツールです。
+もちろんです。見やすく整理して、日本語版と英語版を完全に分けた形にするとかなり読みやすくなります。
+そのまま README や紹介文に使いやすいように、自然でわかりやすい表現に整えました。
 
-概要 / Overview
 日本語
-このプログラムは、Windows上でマウスの動き（X座標とY座標）をリアルタイムで取得し、記録することを目的としています。「なでしこ v1」の強力なシステム操作機能を活用し、デスクトップ上の操作ログ取得や自動化の補助ツールとして開発しています。
+MouseCursorRecorder について
+MouseCursorRecorder は、日本語プログラミング言語 「なでしこ v1」 で作成した、
+マウスカーソルの座標（X座標・Y座標）をリアルタイムで記録するためのWindows向けツールです。
 
-English
-This tool is designed to record mouse cursor coordinates (X and Y) in real-time on Windows, developed using the Japanese programming language "Nadesiko v1". It leverages the powerful system automation features of Nadesiko v1 to assist with operation logging and desktop automation.
+このプログラムは、Windows上でマウスの動きを取得し、操作ログの記録やデスクトップ自動化の補助に活用できるよう開発されています。
+なでしこ v1 のシステム操作機能を利用しており、シンプルかつ軽量に動作します。
 
-特徴 / Features
-なでしこ v1 (Windows版) 専用: Windows標準の動作に最適化されています。
+特徴
+なでしこ v1（Windows版）専用
 
-日本語ソースコード: プログラムが日本語で書かれているため、直感的なカスタマイズが可能です。
+Windows環境での利用に最適化されています。
+マウス座標をリアルタイムで取得
 
-Lightweight: Optimized for Windows environments with no complex dependencies.
+カーソルのX座標・Y座標を継続的に記録できます。
+日本語で書かれたソースコード
 
-使い方 / Usage
-なでしこ v1 がインストールされたWindows環境を用意します。
+ソースコードが日本語なので、内容を理解しやすく、カスタマイズも直感的に行えます。
+軽量でシンプル
 
-新型マウスカーソル座標.nako を「なでしこ」で開いて実行してください。
+複雑な依存関係がなく、Windows環境で手軽に利用できます。
+用途
+デスクトップ操作の記録
+自動化処理の補助
+マウス動作の確認や検証
+座標ベースの簡易ツール作成
+使い方
+Windows環境に なでしこ v1 をインストールします。
+新型マウスカーソル座標.nako を、なでしこエディタで開きます。
+実行すると、マウスカーソルの座標取得が開始されます。
 
-Open 新型マウスカーソル座標.nako with the Nadesiko editor and run it to start tracking coordinates.
+
+About MouseCursorRecorder
+MouseCursorRecorder is a Windows tool for recording mouse cursor coordinates (X and Y) in real time, developed using the Japanese programming language Nadesiko v1.
+
+This program is designed to capture mouse movement on Windows and can be used for operation logging, desktop automation support, and coordinate-based utility tasks.
+It takes advantage of the powerful system automation features of Nadesiko v1 while remaining simple and lightweight.
+
+Features
+Built for Nadesiko v1 (Windows version)
+
+Optimized for standard Windows environments.
+Real-time cursor coordinate tracking
+
+Continuously records mouse cursor X and Y positions.
+Japanese source code
+
+Since the source code is written in Japanese, it is easy to understand and customize intuitively.
+Lightweight and simple
+
+No complex dependencies, making it easy to run in Windows environments.
+Use Cases
+Desktop operation logging
+Support for automation tasks
+Mouse movement testing and verification
+Building simple coordinate-based tools
+Usage
+Install Nadesiko v1 on a Windows environment.
+Open 新型マウスカーソル座標.nako in the Nadesiko editor.
+Run the program to start tracking mouse cursor coordinates.
+
